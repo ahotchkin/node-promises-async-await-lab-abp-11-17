@@ -42,7 +42,7 @@ class Question {
 
 
   // FIXME: Implement async / await
-  async function Print(id){
+  async Print(id){
     const question = await Question.Find(id)
 
     console.log("\n")
